@@ -1,0 +1,54 @@
+body {
+	text-align: center;
+	color: white;
+}
+header {
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 0 .5rem 1rem #000;
+	opacity: 0.6;
+}
+main {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	margin-left: -150px;
+	margin-top: -150px;
+	background: linear-gradient(75deg, #eb5e2a, #d72aeb);
+	border-radius: 30px;
+	box-shadow: 10px 10px 10px black;
+}
+button {
+	box-shadow: inset 50px 0 80px 0px rgba(0, 0, 0, 1);
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	font-size: 20px;
+	color: white;
+	background: pink;
+	opacity: 0.5;
+	border-radius: 50%;
+	border: none;
+}
+button:hover {
+    outline: none;
+    animation: spin 5s linear infinite;
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+}
+#selection {
+	min-width: 200px;
+	min-height: 130px;
+	background: linear-gradient(75deg, #eb5e2a, #d72aeb);
+	margin-top: 70px;
+	border-radius: 30px;
+	font-size: 20px;
+	box-shadow: 10px 10px 10px black;
+}
+@keyframes spin {
+to {
+    transform: rotateZ(360deg);
+  }
+}
